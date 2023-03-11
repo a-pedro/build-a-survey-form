@@ -1,0 +1,72 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css" />
+<title>PupilFreeCodeCampForm</title>
+
+</head>
+
+<body>
+<h1 id="title">Pupil Survey Form</h1>
+
+<p id="description"> Give your opinion and help us to improve our content!</p>
+
+<form id="survey-form">
+
+<label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+
+<label id="email-label"  for="email">Email<input id="email" type="email" placeholder="Enter your email" required /></label>
+
+<label id="number-label"  for="number">Age (optional)<input id="number" type="number" min="15" max="99" placeholder="Age"  /></label>
+
+
+
+<label>What best period do you think is best to learn code?<select id="dropdown" name="">
+  
+  <option value="1">morning
+  </option>
+  <option value"2">afternoon</option>
+  <option value"3">evening</option>
+  <option value"4">overnight</option></select></label>
+<label>On a scale of 0 to 100, what is your opinion?<input type="radio" name="number" value="number">0 to 30</input></label>
+<label><input type="radio" name="number"value="number">30 to 60</input></label>
+<label><input type="radio" name="number" value="number" button="">60 to 100</input></label>
+What language you would like to learn?
+<label><input type="checkbox" value="HTML, CSS and JS">HTML, CSS and JS</input></label>
+<label><input type="checkbox" value="GIT and GITHUB"></input>GIT and GITHUB</label>
+<label><input type="checkbox" value="CLOUD COMPUTING"></input>CLOUD COMPUTING</label>
+<label><input type="checkbox" value="REACT"></input>REACT</label>
+<label><input type="checkbox" value="NODE.JS"></input>NODE.JS</label>
+<label><input type="checkbox" value="PYTHON"></input>PYTHON</label>
+<label><input type="checkbox" value="SQL, DATA BASE, and DJANGO"></input>SQL, DATA BASE, and DJANGO </label>
+<label><input type="checkbox" value="C++"></input>C++</label>
+<label><input type="checkbox" value="APP in CLOUD"></input>APP in CLOUD</label>
+<label><input type="checkbox" value="Other"></input>Other</label>
+Write your opinion here<label for="opinion" name="opinion"><textarea></textarea></label>
+<button id="submit" type="submit">Submit</button>
+
+</form>
+
+</body>
+
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+** end of undefined **
+
